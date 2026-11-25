@@ -37,7 +37,8 @@ Objetivo: em **2 minutos de leitura**, o Renato sabe o que importa hoje e por on
    ⚠️ {só se houver algo urgente}
    ```
 8. **Execução agendada** (sem o Renato no chat): mande também esse resumo como notificação
-   para o iPhone: `notify.send_message`, `entity_id: notify.iphone_de_renato`, título "Bom dia ☀️".
+   para o iPhone: ação `notify.mobile_app_iphone_de_renato`, `title: "Bom dia ☀️"`, `message:` o resumo.
+   (Agendado: tarefa "Jarvis — Bom dia (dias úteis)", seg–sex 07:30, roda com o app Claude aberto.)
    No chat interativo, só notifique se ele pedir.
 9. Commit no git: `diario: AAAA-MM-DD bom dia`.
 

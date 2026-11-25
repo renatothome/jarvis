@@ -19,6 +19,7 @@
 - Trabalho: 
 - Melhor horário de foco: 
 - Durmo: 
+- Seg–sex 18h: buscar as crianças na escola (lembrete automático às 17h40)
 
 ## Áreas da vida que importam agora
 - Trabalho

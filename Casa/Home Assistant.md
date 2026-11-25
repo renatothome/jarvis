@@ -18,7 +18,7 @@ Sala · Cozinha · Suíte Casal · Lavabo · Quarto Meninos · Quarto Catarina �
 ## Como falar com o Renato pela casa
 | Canal | Como | Quando usar |
 |---|---|---|
-| Notificação iPhone | `notify.send_message` → `notify.iphone_de_renato` | Lembretes, briefing |
+| Notificação iPhone | ação `notify.mobile_app_iphone_de_renato` (urgente: `interruption-level: time-sensitive`) | Lembretes, briefing |
 | Tablet da parede | `notify.sm_x200` (Fully Kiosk) | Avisos para a casa |
 | Luz do escritório | `light.escritorio_luz_do_escritorio`, `light.escritorio_led_do_escritorio` | Lembrete visual / modo foco |
 | Voz | Assist / agente `conversation.claude_conversation` ("Jarvis") | Conversa |
@@ -30,6 +30,11 @@ Sala · Cozinha · Suíte Casal · Lavabo · Quarto Meninos · Quarto Catarina �
   - O /capturar (modo esvaziar) copia os itens para o vault e remove do HA
 - `todo.shopping_list` — lista de compras
 - Calendário: só "Rodízio - suspensões" (falta conectar a agenda pessoal)
+
+## Automações do Jarvis
+- `automation.jarvis_anota_no_inbox_voz` — "anota …" → `todo.inbox`
+- `automation.jarvis_lembrete_buscar_as_criancas_17h40` — seg–sex 17h40: notificação urgente no iPhone
+  ("Buscar as crianças às 18h") + LED do escritório pisca 3x se Renato estiver em casa
 
 ## Automações existentes (resumo)
 - Apagar luzes sem movimento (por cômodo)

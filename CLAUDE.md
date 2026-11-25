@@ -44,7 +44,8 @@ Convenções:
 ## Ferramentas
 - **Home Assistant** (MCP `ha_*`): antes de mexer na casa, leia `Casa/Home Assistant.md`
   e respeite as **regras de permissão** de lá. Notificação para o Renato:
-  `notify.send_message` com `entity_id: notify.iphone_de_renato`.
+  ação `notify.mobile_app_iphone_de_renato` (`title`, `message`; para urgente use
+  `data: {push: {interruption-level: time-sensitive}}`).
 - **Gmail / Google Drive**: ler para o briefing; **nunca enviar e-mail sem confirmação**.
 - **Git**: o vault é versionado. Ao terminar uma sessão com mudanças, faça commit com
   mensagem curta em português (ex.: `diario: 2026-11-26`). Push só se o Renato pedir
