@@ -41,7 +41,16 @@ Objetivo: em **2 minutos de leitura**, o Renato sabe o que importa hoje e por on
    (Agendado na nuvem: rotina "Jarvis — Bom dia (seg-sex 08:15)" em claude.ai/code/routines —
    roda sem PC ligado e dá push direto na `main`. A tarefa local no Dell G15 está pausada.)
    No chat interativo, só notifique se ele pedir.
-9. Commit no git: `diario: AAAA-MM-DD bom dia`.
+9. **Contas vencendo (execução agendada e interativa):** para cada evento da agenda "Contas Renato"
+   que vence **hoje ou amanhã** e ainda não tem "PAGO" no título, dispare o lembrete em camadas do
+   Home Assistant (uma chamada por conta):
+   - ação `script.jarvis_lembrete_em_camadas` com
+     `titulo: "💸 Pagar <nome da conta>"`,
+     `mensagem: "Vence <hoje|amanhã, DD/MM>. Primeiro passo: abrir o app do banco e achar o boleto."`,
+     `id: "conta_<nome-curto-sem-espaço>"`, `repeticoes: 4`, `intervalo_min: 15`.
+   - Conta que vence em 2–3 dias: só mencione no resumo, sem lembrete em camadas.
+   - Quando o Renato disser que pagou, adicione "PAGO ✅" ao título do evento no Google Calendar.
+10. Commit no git: `diario: AAAA-MM-DD bom dia`.
 
 ## Não fazer
 - Não listar todas as tarefas. Não mencionar atrasos. Não sugerir mais de 3 coisas.
