@@ -20,6 +20,11 @@ Objetivo: em **2 minutos de leitura**, o Renato sabe o que importa hoje e por on
      alertas/reparos críticos, bateria baixa de algo importante.
    - **Gmail**: só e-mails das últimas 24h que pedem ação dele (banco, governo, escola, trabalho).
      Ignore promoções e newsletters.
+   - **Escolas** (ver `Areas/Escolas.md`): procure no Gmail comunicados das últimas 24h de
+     `clipescola@clipemail.net` (Lumière/Gabriel), `domboscosantoandre.com.br` (Catarina) e qualquer
+     e-mail com "Arbus" (Pedro). O e-mail do ClipEscola só traz o título; se houver link do Google Drive
+     (circular em PDF), leia o arquivo. Atualize `Areas/Escolas.md` (comunicados recentes e **Próximas datas**).
+     No resumo, mencione eventos escolares de **hoje e amanhã** e qualquer ocorrência com um dos filhos.
 4. Se o Inbox tiver itens, distribua-os (ver skill `/capturar`, modo "esvaziar") antes de escolher prioridades.
 5. Escolha **no máximo 3 prioridades** para hoje:
    - Primeiro o que tem data hoje/amanhã ou compromisso com outra pessoa.
