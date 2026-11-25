@@ -9,6 +9,8 @@
 - [ ] Lembrete visual: luz do escritório muda de cor antes de compromissos
 
 ## Depois
+- [ ] Fazer a VOZ dos lembretes funcionar: reativar caixa Bose (offline desde 22/11), ver por que a TV da sala recusa TTS, e considerar uma caixa no escritório
+- [ ] Lembrete em camadas para contas a vencer (agenda "Contas Renato")
 - [ ] Preencher [[Eu]] (10 minutos, pode ser aos poucos)
 - [ ] Trocar a fonte do Raspberry Pi (alerta de subtensão)
 - [ ] (pausado) Agenda corporativa Outlook: conector M365 bloqueado pelo TI e publicação de calendário desativada. Se voltar: testar Power Automate, Atalho do iPhone ou mandar print da agenda no /bom-dia
@@ -20,3 +22,4 @@
 - 2026-11-25: ✅ Inbox por voz no HA ("anota …") e ✅ Atalho "Jarvis anota" no iPhone testado.
 - 2026-11-25: ✅ /bom-dia agendado (seg–sex 07:30) e ✅ lembrete de buscar as crianças (seg–sex 17h40, iPhone + LED do escritório).
 - 2026-11-25: ✅ /bom-dia movido para rotina na NUVEM (seg–sex 08:15, sem depender de PC ligado). Testado: notificação chegou no iPhone e a nota foi salva no GitHub. Tarefa local no G15 pausada.
+- 2026-11-25: ✅ Lembrete em camadas (script no HA): notificação com "OK, vi" + luz no cômodo com movimento + repetição. Lembrete das crianças usa ele. Voz pendente.

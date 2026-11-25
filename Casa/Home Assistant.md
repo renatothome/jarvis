@@ -33,8 +33,14 @@ Sala · Cozinha · Suíte Casal · Lavabo · Quarto Meninos · Quarto Catarina �
 
 ## Automações do Jarvis
 - `automation.jarvis_anota_no_inbox_voz` — "anota …" → `todo.inbox`
-- `automation.jarvis_lembrete_buscar_as_criancas_17h40` — seg–sex 17h40: notificação urgente no iPhone
-  ("Buscar as crianças às 18h") + LED do escritório pisca 3x se Renato estiver em casa
+- `script.jarvis_lembrete_em_camadas` — **lembrete em camadas** (usar para tudo que é importante):
+  campos `titulo`, `mensagem`, `id` (curto, sem espaço), `repeticoes` (padrão 3), `intervalo_min` (padrão 5).
+  1. Notificação urgente no iPhone com botão "OK, vi ✅" (a nova substitui a anterior pela tag)
+  2. Se Renato em casa: voz (TV sala / caixa Bose) + luz piscando nos cômodos com movimento nos últimos 15 min
+  3. Repete até ele tocar em "OK, vi" ou acabar as repetições
+  - ⚠️ Voz ainda não funciona: TV da sala recusa TTS e caixa Bose offline desde 2026-11-22. Escritório não tem caixa.
+- `automation.jarvis_lembrete_buscar_as_criancas_17h40` — seg–sex 17h40 → chama o lembrete em camadas
+  ("🚗 Buscar as crianças", 3 repetições a cada 5 min)
 
 ## Automações existentes (resumo)
 - Apagar luzes sem movimento (por cômodo)
