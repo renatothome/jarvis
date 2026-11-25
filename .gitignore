@@ -1,0 +1,17 @@
+# Obsidian: estado de janela/cache (muda toda hora)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.trash/
+
+# Claude Code: configurações locais da máquina
+.claude/settings.local.json
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Segredos — nunca versionar
+.env
+*.secret
