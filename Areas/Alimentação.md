@@ -11,6 +11,13 @@
 - **Janela do jantar das crianças: 17h–17h40** → preparar algo rápido, ou adiantar, ou conferir se já tem pronto.
 - Ideal: jantares que fiquem prontos em até ~30–40 min ou que possam ser adiantados (marmitas, forno, panela de pressão).
 
+## 🍽️ Lembrete do jantar (automático)
+- Seg–sex **17h**: `automation.jarvis_jantar_das_criancas_17h`
+  - O Claude (AI Task do HA) sugere 1 prato seguindo as regras da casa, pronto em até 40 min, com primeiro passo.
+  - Evita repetir os últimos pratos (guardados em `input_text.jarvis_jantares_recentes`).
+  - Dispara o lembrete em camadas (2x a cada 10 min) com a sugestão.
+- Ideia futura: usar a lista de compras/o que tem em casa para sugerir com o que já existe.
+
 ## Crianças
 - Comem de tudo e geralmente o mesmo que os pais.
 - **Seguem a mesma regra da casa** (sem gordura, sem açúcar, sem glúten).

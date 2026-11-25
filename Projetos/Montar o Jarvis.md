@@ -24,3 +24,4 @@
 - 2026-11-25: ✅ Lembrete em camadas (script no HA): notificação com "OK, vi" + luz no cômodo com movimento + repetição. Lembrete das crianças usa ele. Voz pendente.
 - 2026-11-25: ✅ /bom-dia dispara lembrete em camadas para contas que vencem hoje/amanhã (4x a cada 15 min). Primeiro caso real: Conta de Energia (vence 28/11) → lembrete em 27/11.
 - 2026-11-25: ✅ Aviso "🧺 A roupa terminou" (máquina de lavar → lembrete em camadas; de madrugada espera até 7h). Ainda não testado com ciclo real.
+- 2026-11-25: ✅ Compras por voz ("comprar …") e ✅ lembrete do jantar das 17h com sugestão da IA (sem glúten/açúcar/gordura, sem repetir).

@@ -48,6 +48,10 @@ Sala · Cozinha · Suíte Casal · Lavabo · Quarto Meninos · Quarto Catarina �
   - Detecção: `sensor.area_de_servico_maquina_de_lavar_running_status` sai de `start` para `end`/`standby`,
     ou para `unavailable` depois de 30+ min (a máquina se desliga ~2 min após terminar).
 
+- `automation.jarvis_comprar_voz_lista_de_compras` — "comprar …"/"acabou o …" → `todo.shopping_list`
+- `automation.jarvis_jantar_das_criancas_17h` — seg–sex 17h: sugestão de jantar pela IA → lembrete em camadas
+  (detalhes em [[Alimentação]])
+
 ## Automações existentes (resumo)
 - Apagar luzes sem movimento (por cômodo)
 - Casa vazia → apagar tudo (com pergunta no iPhone)
