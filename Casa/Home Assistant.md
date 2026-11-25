@@ -44,7 +44,8 @@ Sala · Cozinha · Suíte Casal · Lavabo · Quarto Meninos · Quarto Catarina �
 - `script.jarvis_lembrete_em_camadas` — **lembrete em camadas** (usar para tudo que é importante):
   campos `titulo`, `mensagem`, `id` (curto, sem espaço), `repeticoes` (padrão 3), `intervalo_min` (padrão 5).
   1. Notificação urgente no iPhone com botão "OK, vi ✅" (a nova substitui a anterior pela tag)
-  2. Se Renato em casa: luz piscando nos cômodos com movimento nos últimos 15 min
+  2. Se **Renato em casa E Luana FORA de casa**: luz piscando nos cômodos com movimento nos últimos 15 min
+     (regra do Renato, 2026-11-25 — com a Luana em casa, nada pisca; testado)
   3. Repete até ele tocar em "OK, vi" ou acabar as repetições
   - 🔇 Sem voz por enquanto. **Não usar TV da sala nem caixa Bose para avisos** (decisão do Renato, 2026-11-25).
     Ele vai comprar/definir outro equipamento para voz depois.

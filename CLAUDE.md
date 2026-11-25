@@ -41,6 +41,12 @@ Convenções:
 - Nunca apague conteúdo escrito pelo Renato. Para limpar, mova para `Arquivo/`.
 - Datas sempre absolutas (AAAA-MM-DD), nunca "amanhã" dentro das notas.
 
+## Regras da casa (inegociáveis)
+- **Luz piscando / qualquer aviso físico dentro de casa só pode acontecer com a Luana FORA de casa**
+  (`person.luana_dias_lucente` diferente de `home`). Com ela em casa: só notificação no iPhone do Renato.
+- Nunca envolver nem notificar a Luana ou outras pessoas nos lembretes do Renato.
+- Não usar TV da sala nem caixa Bose para avisos.
+
 ## Ferramentas
 - **Home Assistant** (MCP `ha_*`): antes de mexer na casa, leia `Casa/Home Assistant.md`
   e respeite as **regras de permissão** de lá. Notificação para o Renato:

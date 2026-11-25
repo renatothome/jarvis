@@ -14,6 +14,7 @@
 - Alguém me lembrar: ajuda.
 - Ideia para o Jarvis: lembrete em camadas — notificação + aviso falado + luz no cômodo onde há movimento,
   repetindo até eu confirmar.
+- 💡 Luz piscando como lembrete **só quando a Luana não estiver em casa**. Com ela em casa, só notificação.
 - ❌ **Não envolver a Luana** nos lembretes (nada de notificar outras pessoas). Decidido em 2026-11-25.
 
 ## O que me trava
