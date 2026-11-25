@@ -24,6 +24,10 @@ Sala · Cozinha · Suíte Casal · Lavabo · Quarto Meninos · Quarto Catarina �
 | Voz | Assist / agente `conversation.claude_conversation` ("Jarvis") | Conversa |
 
 ## Listas e agenda no HA
+- `todo.inbox` — **Inbox do Jarvis** (captura por voz). Criada em 2026-11-25.
+  - Voz: "anota …", "jarvis anota …", "joga no inbox …" → automação `automation.jarvis_anota_no_inbox_voz`
+  - O agente "Jarvis" do HA também entende "anota …" (chama a lista de "Lista do Jarvis")
+  - O /capturar (modo esvaziar) copia os itens para o vault e remove do HA
 - `todo.shopping_list` — lista de compras
 - Calendário: só "Rodízio - suspensões" (falta conectar a agenda pessoal)
 
