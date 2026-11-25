@@ -13,7 +13,6 @@
 - [ ] Preencher [[Eu]] (10 minutos, pode ser aos poucos)
 - [ ] Trocar a fonte do Raspberry Pi (alerta de subtensão)
 - [ ] (pausado) Agenda corporativa Outlook: conector M365 bloqueado pelo TI e publicação de calendário desativada. Se voltar: testar Power Automate, Atalho do iPhone ou mandar print da agenda no /bom-dia
-- [ ] Ajustar o prompt do agente "Jarvis" do HA com as mesmas regras do CLAUDE.md
 
 ## Notas / histórico
 - 2026-11-25: estrutura do vault criada; decidido pasta local + GitHub privado (sem Google Drive).
@@ -25,3 +24,4 @@
 - 2026-11-25: ✅ /bom-dia dispara lembrete em camadas para contas que vencem hoje/amanhã (4x a cada 15 min). Primeiro caso real: Conta de Energia (vence 28/11) → lembrete em 27/11.
 - 2026-11-25: ✅ Aviso "🧺 A roupa terminou" (máquina de lavar → lembrete em camadas; de madrugada espera até 7h). Ainda não testado com ciclo real.
 - 2026-11-25: ✅ Compras por voz ("comprar …") e ✅ lembrete do jantar das 17h com sugestão da IA (sem glúten/açúcar/gordura, sem repetir).
+- 2026-11-25: ✅ Agente de voz "Jarvis" do HA com as regras do TDAH e da casa (testado: "estou travado para pagar as contas").

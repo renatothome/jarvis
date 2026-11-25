@@ -23,6 +23,14 @@ Sala · Cozinha · Suíte Casal · Lavabo · Quarto Meninos · Quarto Catarina �
 | Luz do escritório | `light.escritorio_luz_do_escritorio`, `light.escritorio_led_do_escritorio` | Lembrete visual / modo foco |
 | Voz | Assist / agente `conversation.claude_conversation` ("Jarvis") | Conversa |
 
+## Agente de voz "Jarvis" (conversation.claude_conversation)
+- Integração Claude (Anthropic) no HA, modelo `claude-haiku-5-5`, busca na web ligada.
+- Instruções atualizadas em 2026-11-25 com as mesmas regras do CLAUDE.md: TDAH (uma coisa por vez, máx. 3,
+  primeiro passo de 5 min, zero culpa, tempo visível), anotar → `todo.inbox`, compras → `todo.shopping_list`,
+  confirmar antes de ar/TV/aspirador/câmeras/alarme, nunca envolver a Luana, não usar TV/Bose para avisos,
+  regras de alimentação. Sabe data e hora atuais.
+- Se mudar alguma regra no CLAUDE.md, atualizar também aqui (Configurações → Dispositivos → Claude → Claude conversation → Reconfigurar).
+
 ## Listas e agenda no HA
 - `todo.inbox` — **Inbox do Jarvis** (captura por voz). Criada em 2026-11-25.
   - Voz: "anota …", "jarvis anota …", "joga no inbox …" → automação `automation.jarvis_anota_no_inbox_voz`
