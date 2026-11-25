@@ -9,7 +9,7 @@
 - [ ] Lembrete visual: luz do escritório muda de cor antes de compromissos
 
 ## Depois
-- [ ] Fazer a VOZ dos lembretes funcionar: reativar caixa Bose (offline desde 22/11), ver por que a TV da sala recusa TTS, e considerar uma caixa no escritório
+- [ ] (aguardando Renato) Voz nos lembretes: ele vai escolher outro equipamento. NÃO usar TV da sala nem caixa Bose.
 - [ ] Lembrete em camadas para contas a vencer (agenda "Contas Renato")
 - [ ] Preencher [[Eu]] (10 minutos, pode ser aos poucos)
 - [ ] Trocar a fonte do Raspberry Pi (alerta de subtensão)
