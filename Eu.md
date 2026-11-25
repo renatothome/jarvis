@@ -15,7 +15,9 @@
 - (preencher) ex.: e-mail de banco/governo
 
 ## Horários
-- Acordo: 
+- Acordo: 06:00–06:30 (dias úteis). Não costumo pegar o celular logo cedo.
+- Primeira tela do dia: celular em algum momento da manhã, ou ~08:30 quando sento no T14 no escritório
+- Computadores: Dell G15 (onde o Jarvis/Claude roda, só ligo quando preciso) e T14 (trabalho)
 - Trabalho: 
 - Melhor horário de foco: 
 - Durmo: 
