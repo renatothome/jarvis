@@ -4,5 +4,6 @@
   "attachmentFolderPath": "Referencia/anexos",
   "userIgnoreFilters": [
     "Arquivo/"
-  ]
+  ],
+  "openBehavior": "daily"
 }

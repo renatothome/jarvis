@@ -1,6 +1,5 @@
 {
   "folder": "Diario",
   "format": "YYYY-MM-DD",
-  "template": "Templates/Diario",
-  "autorun": true
+  "template": "Templates/Diario"
 }
