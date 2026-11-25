@@ -8,16 +8,16 @@
 |---|---|---|
 | [[Gabriel]] | Colégio Lumière | App **ClipEscola** (e-mail de clipescola@clipemail.net só traz o título; a circular vem em PDF no Google Drive) |
 | [[Catarina]] | Colégio Dom Bosco (Santo André) | Por e-mail só chegam **boletos** (financeiro@domboscosantoandre.com.br). Comunicados pedagógicos: ❓ canal a descobrir |
-| [[Pedro]] | **Colégio Arbos** (Santo André) — K2 (Educação Infantil), turma K2A ou K2E ❓ | E-mail de **informes@mail.arbos.com.br** com **PDF anexo** (circular mensal) + Portal do Aluno |
+| [[Pedro]] | **Colégio Arbos** (Santo André) — K2 (Educação Infantil), turma **K2A (manhã)** | E-mail de **informes@mail.arbos.com.br** com **PDF anexo** (circular mensal) + Portal do Aluno |
 
 ## 📅 Próximas datas
 > ⏰ = já tem lembrete em camadas na agenda **Lembretes Jarvis** do Home Assistant.
 - **2026-11-26 (qui)** — Arbos (Pedro): Thanksgiving — mandar a **fruta preferida já cortada** ⏰ (20h de 25/11 e 6h45 de 26/11)
 - **2026-11-27 (sex)** — Arbos (Pedro): **Fun Friday "Cidadãos do Mundo"** — ir fantasiado de um país/cultura ⏰ (19h30 de 26/11). Também festa dos aniversariantes de nov/dez (bolo só embalado individualmente)
-- **2026-11-28 (sáb)** — Arbos (Pedro): **Little Authors, Big Stories** — Kindergarten, K2A 10h30 / K2E 8h30, uniforme, até 2 convidados, entrada Av. Padre Anchieta ⏰ (19h30 de 27/11)
+- **2026-11-28 (sáb)** — Arbos (Pedro): **Little Authors, Big Stories** — Kindergarten, **10h30** (K2A), uniforme, até 2 convidados, entrada Av. Padre Anchieta ⏰ (19h30 de 27/11)
 - **2026-11-30** — Arbos: fim das academias/treinamentos (matrículas canceladas automaticamente)
 - **2026-12-04 (sex)** — Arbos (Pedro): ação das cartas para o Papai Noel — **não faltar** ⏰ (19h30 de 03/12)
-- **2026-12-05 (sáb)** — Arbos (Pedro): reunião das famílias da Ed. Infantil — K2A 8h30 / K2E 10h ⏰ (19h30 de 04/12)
+- **2026-12-05 (sáb)** — Arbos (Pedro): reunião das famílias da Ed. Infantil — **8h30** (K2A) ⏰ (19h30 de 04/12)
 - **até 2026-12-11** — Arbos (Pedro): conferir autorização de saída, ficha médica e cadastro no Portal do Aluno ⏰ (09/12 9h)
 - **2026-12-17 (qui)** — Arbos (Pedro): encerramento da Ed. Infantil e do Integral + confraternização
 - **2026-11-27** — Lumière (Gabriel): divulgação dos resultados do 3º trimestre ⏰ (19h)
@@ -53,7 +53,7 @@
 - Boletos mensais chegam por e-mail com aviso de 7 dias e 1 dia antes.
 
 ## Arbos (Pedro)
-- Turma: K2 A/E (Educação Infantil), período integral (boletos de "período integral").
+- Turma: **K2A — manhã** (Educação Infantil), período integral (boletos de "período integral").
 - Circular mensal chega no fim do mês anterior em PDF (ex.: CIRCULAR_NOVEMBRO_2026_K2AE).
 - 20/11 foi feriado (sem aula). ARFEC (feira de ciências) foi em 24/10.
 - Matrícula 2027: contrato via TOTVS Assinatura (pendente em 16/11, código de verificação em 17/11 → provavelmente assinado; **confirmar**).
