@@ -43,6 +43,11 @@ Sala · Cozinha · Suíte Casal · Lavabo · Quarto Meninos · Quarto Catarina �
 - `automation.jarvis_lembrete_buscar_as_criancas_17h40` — seg–sex 17h40 → chama o lembrete em camadas
   ("🚗 Buscar as crianças", 3 repetições a cada 5 min)
 
+- `automation.jarvis_roupa_terminou_na_maquina` — fim do ciclo da máquina de lavar → lembrete em camadas
+  "🧺 A roupa terminou" (4x a cada 15 min). Se terminar entre 22h e 7h, avisa às 7h.
+  - Detecção: `sensor.area_de_servico_maquina_de_lavar_running_status` sai de `start` para `end`/`standby`,
+    ou para `unavailable` depois de 30+ min (a máquina se desliga ~2 min após terminar).
+
 ## Automações existentes (resumo)
 - Apagar luzes sem movimento (por cômodo)
 - Casa vazia → apagar tudo (com pergunta no iPhone)
