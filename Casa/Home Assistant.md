@@ -53,7 +53,10 @@ Sala · Cozinha · Suíte Casal · Lavabo · Quarto Meninos · Quarto Catarina �
 **Precisa confirmar antes:**
 - Ar-condicionado, TV, aspirador
 - Criar, alterar ou apagar automações/scripts
-- Notificar outras pessoas (Luana, tablet da casa)
+- Avisos no tablet da casa
+
+**Nunca (decisão do Renato, 2026-11-25):**
+- Envolver a Luana ou outras pessoas nos lembretes/notificações do Renato
 
 **Nunca:**
 - Desbloquear câmeras do tablet, mexer em alarme
