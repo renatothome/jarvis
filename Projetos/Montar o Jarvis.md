@@ -19,3 +19,4 @@
 - 2026-11-25: ✅ Obsidian instalado, ✅ Obsidian Git ativo, ✅ primeiro /bom-dia testado, ✅ Google Agenda conectado (Agenda Principal + Contas Renato).
 - 2026-11-25: ✅ Inbox por voz no HA ("anota …") e ✅ Atalho "Jarvis anota" no iPhone testado.
 - 2026-11-25: ✅ /bom-dia agendado (seg–sex 07:30) e ✅ lembrete de buscar as crianças (seg–sex 17h40, iPhone + LED do escritório).
+- 2026-11-25: ✅ /bom-dia movido para rotina na NUVEM (seg–sex 08:15, sem depender de PC ligado). Testado: notificação chegou no iPhone e a nota foi salva no GitHub. Tarefa local no G15 pausada.

@@ -38,7 +38,8 @@ Objetivo: em **2 minutos de leitura**, o Renato sabe o que importa hoje e por on
    ```
 8. **Execução agendada** (sem o Renato no chat): mande também esse resumo como notificação
    para o iPhone: ação `notify.mobile_app_iphone_de_renato`, `title: "Bom dia ☀️"`, `message:` o resumo.
-   (Agendado: tarefa "Jarvis — Bom dia (dias úteis)", seg–sex 07:30, roda com o app Claude aberto.)
+   (Agendado na nuvem: rotina "Jarvis — Bom dia (seg-sex 08:15)" em claude.ai/code/routines —
+   roda sem PC ligado e dá push direto na `main`. A tarefa local no Dell G15 está pausada.)
    No chat interativo, só notifique se ele pedir.
 9. Commit no git: `diario: AAAA-MM-DD bom dia`.
 
