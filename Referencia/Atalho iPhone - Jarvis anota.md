@@ -26,6 +26,11 @@ Pré-requisito: app **Home Assistant** (Companion) instalado e logado no iPhone.
 ## Alternativa sem Atalho
 - No app Home Assistant → **Assist** → digite ou fale: `anota comprar pilha`.
 
+## ⚠️ Nome do atalho
+A Siri entende "anota" como comando do app **Notas** e ignora o atalho.
+Por isso o atalho se chama **Inbox Jarvis** (sem a palavra "anota").
+Fale só o nome, espere o sinal de escuta e aí diga o conteúdo.
+
 ## Se der erro
 - "Ação não encontrada": confira se é `todo.add_item` (com ponto) e se o app HA está atualizado.
 - Item chega vazio: a variável *Texto Ditado* não foi inserida no campo `item`.
