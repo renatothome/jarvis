@@ -14,7 +14,7 @@ Objetivo: em **2 minutos de leitura**, o Renato sabe o que importa hoje e por on
    e a nota de ontem em `Diario/` (o que ficou aberto).
 3. Contexto externo (pule em silêncio o que não estiver disponível):
    - **Agenda**: eventos de hoje e amanhã cedo (calendários do Home Assistant e, se houver, Google Calendar).
-   - **Casa** (Home Assistant): clima de hoje (`weather.cidade_viva`), quem está em casa,
+   - **Casa** (Home Assistant): clima de hoje (`weather.forecast_home`; se estiver indisponível, avise em uma linha), quem está em casa,
      alertas/reparos críticos, bateria baixa de algo importante.
    - **Gmail**: só e-mails das últimas 24h que pedem ação dele (banco, governo, escola, trabalho).
      Ignore promoções e newsletters.

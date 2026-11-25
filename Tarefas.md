@@ -5,6 +5,7 @@
 
 ## Com data
 <!-- - [ ] Pagar IPVA 📅 2026-12-10 -->
+- [ ] Ver o comunicado da dedetização do condomínio e preparar a casa 📅 2026-12-02
 
 ## Próximas (sem data)
 
